@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.top.bg-success{
+    background-color: transparent;
+}
+.head{
+    position: relative;
+}
+.head .top {
+    position: absolute;
+    z-index: 100;
+}
+
+
+.navbar-logo {
+    font-size: 2rem;
+    font-weight: 300;
+    text-decoration: none;
+    
+}
+.navbar-logo span {
+    font-weight: 900;
+}
+.find{
+    background-image: url(../img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.find .row {
+    height: 25rem;
+}
+.find h3 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+.abc .h3::after{
+    content: '';
+    display: block;
+    width: 8rem;
+    height: 0.2rem;
+    background-color: #71b100;
+    margin-top: .5rem;
+}
+.testimonials .carousel-item{
+    padding-left: 2rem;
+}
+.testimonials .text{
+    position: relative;
+    font-weight: 400;
+    
+}
+.testimonials .text::before{
+    
+    font-size: 5rem;
+    position: absolute;
+    left: -2rem;
+    top: 1rem;
+    font-weight: 900;
+}
+
